@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(57, 57, 150) ;
+}
+
+h1{
+    font-size: 250px;
+    text-align: center;
+    font-weight:lighter ;
+}
+
+.clock{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(128, 78, 173);
+    width: 40%;
+    padding: 15px;
+    
+    
+
+}
+.hours{
+   font-size: 30px;  
+   color: aliceblue;
+   font-weight: bolder;
+   text-align: center;
+}
+
+.minutes{
+   font-size: 30px;  
+   color: aliceblue;
+   font-weight: bolder;
+   text-align: center;
+}
+
+.second{
+    font-size: 30px;
+    color: aliceblue;
+    font-weight: bolder;
+    text-align: center;
+}
